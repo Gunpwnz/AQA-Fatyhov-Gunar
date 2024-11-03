@@ -1,6 +1,6 @@
 package Lesson_3;
 
-public class HM1 {
+public class HW1 {
     
     public static void main(String[] args){
         printThreeWords();
