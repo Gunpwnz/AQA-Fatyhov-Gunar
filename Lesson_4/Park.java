@@ -11,13 +11,13 @@ public class Park {
         this.price = price;
     }
     public void console() {
-        System.out.println("Название " + nameAttraction);
-        System.out.println("Рабочее время " + workTime);
-        System.out.println("Цена - " + price + "$");
+        System.out.println("Аттракцион: " + nameAttraction);
+        System.out.println("Время работы " + workTime);
+        System.out.println("Цена за 10 мин - " + price + "$");
     }
     public static void main (String[] args){
-        Park southPark = new Park("Южный парк", "с 11:00 до 23:00", 10);
-        southPark.console();
+        Park ferrisWheel = new Park("Колесо обозрения", "с 11:00 до 23:00", 10);
+        ferrisWheel.console();
         
     }
 }
