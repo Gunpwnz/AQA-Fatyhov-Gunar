@@ -1,5 +1,5 @@
 package Lesson_4;
 
-public class HW1 {
+public class HW2 {
 
 }
