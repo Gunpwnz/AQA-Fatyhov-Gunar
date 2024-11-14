@@ -1,6 +1,4 @@
 // 3 задание
-package Lesson_4;
-
 public class Park {
     String nameAttraction;
     String workTime;
